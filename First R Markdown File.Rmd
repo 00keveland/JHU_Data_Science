@@ -32,8 +32,7 @@ Note that the `echo = FALSE` parameter was added to the code chunk to prevent pr
 print("Hello Word Document")
 ```
 
-Bats are a well suited model to study *multisensory integration* because they are **cute**
-
+Bats are a well suited model to study *multisensory integration* because they possess a unique sensory opportunity.
 Here's why:  
 -  They have wings  
 -  They can **see** (contrary to popular belief)  
