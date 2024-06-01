@@ -1,0 +1,40 @@
+---
+title: "CodeBook"
+author: "Keegan Eveland"
+date: "2024-06-01"
+output: html_document
+---
+# Code Book for the Tidy Dataset
+
+## Data Source
+
+The data was collected from the accelerometers of the Samsung Galaxy S smartphone. For more details, see the [UCI HAR Dataset](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
+
+## Variables
+
+### Identifiers
+
+- `subject`: ID of the subject
+- `activity`: Type of activity performed
+
+### Measurements
+
+The following measurements were extracted (mean and standard deviation for each measurement):
+
+- `tBodyAccMeanX`, `tBodyAccMeanY`, `tBodyAccMeanZ`
+- `tBodyAccStdX`, `tBodyAccStdY`, `tBodyAccStdZ`
+- `tGravityAccMeanX`, `tGravityAccMeanY`, `tGravityAccMeanZ`
+- `tGravityAccStdX`, `tGravityAccStdY`, `tGravityAccStdZ`
+- `tBodyAccJerkMeanX`, `tBodyAccJerkMeanY`, `tBodyAccJerkMeanZ`
+- `tBodyAccJerkStdX`, `tBodyAccJerkStdY`, `tBodyAccJerkStdZ`
+- `tBodyGyroMeanX`, `tBodyGyroMeanY`, `tBodyGyroMeanZ`
+- `tBodyGyroStdX`, `tBodyGyroStdY`, `tBodyGyroStdZ`
+- `tBodyGyroJerkMeanX`, `tBodyGyroJerkMeanY`, `tBodyGyroJerkMeanZ`
+- `tBodyGyroJerkStdX`, `tBodyGyroJerkStdY`, `tBodyGyroJerkStdZ`
+- `tBodyAccMagMean`, `tBodyAccMagStd`
+- `tGravityAccMagMean`, `tGravityAccMagStd`
+- `tBodyAccJerkMagMean`, `tBodyAccJerkMagStd`
+- `tBodyGyroMagMean`, `tBodyGyroMagStd`
+- `tBodyGyroJerkMagMean`, `tBodyGyroJerkMagStd`
+
+The tidy dataset contains the average of each variable for each activity and each subject.

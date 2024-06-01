@@ -1,0 +1,31 @@
+---
+title: "README"
+author: "Keegan Eveland"
+date: "2024-06-01"
+output: html_document
+---
+# Getting and Cleaning Data Project
+
+This repository contains the R script `run_analysis.R` that performs the analysis described in the project prompt.
+
+## Files
+
+- `run_analysis.R`: R script to perform the analysis
+- `tidy_data.txt`: Output tidy dataset
+- `CodeBook.md`: Descriptions of the variables, the data, and transformations
+- `README.md`: This file, explaining the scripts and the analysis
+
+## Steps to Execute the Script
+
+1. Place `run_analysis.R` in your R working directory.
+2. Source the script in R: `source("run_analysis.R")`.
+3. The script will download and process the data, then output `tidy_data.txt`.
+
+## Summary of the Script
+
+1. Downloads and unzips the dataset if it does not already exist.
+2. Reads the data files and merges the training and test sets.
+3. Extracts measurements on mean and standard deviation.
+4. Uses descriptive activity names.
+5. Labels the dataset with descriptive variable names.
+6. Creates a tidy dataset with the average of each variable for each activity and each subject.
